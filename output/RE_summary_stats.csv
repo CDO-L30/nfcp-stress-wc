@@ -1,0 +1,8 @@
+Variable,T mean,T sd,T N,C mean,C sd,C N,Diff
+Cash Conversion Cycle (days),69.82,101.72,"21,018",70.14,100.52,"21,910",-0.32
+Days Sales Outstanding (days),58.50,47.12,"21,504",56.10,39.25,"22,628",2.41***
+Days Payable Outstanding (days),68.94,63.16,"21,686",65.12,67.61,"22,801",3.82***
+Days Inventory Outstanding (days),81.78,87.26,"21,303",80.20,86.43,"22,178",1.58*
+NWC / Total Assets,0.11,0.13,"20,693",0.17,0.17,"22,054",-0.06***
+Log Total Assets,9.51,1.39,"21,802",8.53,1.24,"22,910",0.98***
+Leverage (debt / assets),0.30,0.16,"21,802",0.30,0.18,"22,910",0.01***
