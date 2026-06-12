@@ -1,4 +1,12 @@
-venvs/
+venvs/*
+!venvs/default/
+venvs/default/*
+!venvs/default/pyproject.toml
+!venvs/default/uv.lock
+!venvs/wrds/
+venvs/wrds/*
+!venvs/wrds/pyproject.toml
+!venvs/wrds/uv.lock
 data/*
 !data/.gitkeep
 .env
