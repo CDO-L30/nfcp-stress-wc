@@ -37,10 +37,20 @@ The notebooks must be run in the following order, as later notebooks depend on o
 
 ### Requirements
 
-Two virtual environments are used:
+Dependencies are managed with [uv](https://docs.astral.sh/uv/). Two virtual environments are used:
 
 - `venvs/default/` — used by `FRED.ipynb`, `EDGAR.ipynb`, and `RESULTS.ipynb`
 - `venvs/wrds/` — used by `WRDS.ipynb` (requires the `wrds` Python package)
+
+To recreate the environments:
+
+```bash
+# Default environment
+uv sync --project venvs/default/pyproject.toml
+
+# WRDS environment
+uv sync --project venvs/wrds/pyproject.toml
+```
 
 ### Environment variables
 
